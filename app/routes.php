@@ -21,7 +21,7 @@ $router->map('GET', '/hello/[a:name]/[a:say]', 'DefaultController::hello');
 
 $router->map('GET', '/markdown', 'DefaultController::markdown');
 
-$router->map('GET', '/feline', 'FelineController::display');
+$router->map('GET', '/Pickle-Rick', 'FelineController::display');
 /**
  * Function that handles the AltoRouter object - must be present in order for your routes to work
  * @param AltoRouter $router
